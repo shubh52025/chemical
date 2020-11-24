@@ -1,10 +1,10 @@
-<?php include 'common/header.php'?>
+<?php include './common/header.php'?>
 <section id="hero" class="d-flex align-items-center">
 
 	 <div class="container">
       <div class="row">
       	<div class="hero-img" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/about-us.jpg" class="img-fluid animated" alt="" height="300" width="1500">
+          <img src="./assets/img/about-us.jpg" class="img-fluid animated" alt="" height="300" width="1500">
           
         </div>
         </div>
@@ -26,14 +26,14 @@
 
 		<div class="section-title">
 			<h2>Company Profile</h2>
-			<p style="font-size: 18px">Advatech is a venture, conceptualized and promoted by Nandolia family,
-			which was establised in 1998 and became one of the leading manufacturer far sodium silicate located at state Gujarat of india.</p>
+			<p style="font-size: 18px">Bhavani Ceramic Pvt Ltd is a venture, conceptualized and promoted by Patel family,
+			which was establised in 1997 and became one of the leading manufacturer far sodium silicate located at state Gujarat of india.</p>
 
 			<p style="font-size: 18px">With annual capacity of 60000 MT. of silicate glass , 50000 MT. of silicate liquid and 5000 MT of Sodium Meta SIlicate.
-				Advatech is a ISO 9001 Registered India based private limited company, having adopted a set of values and
+				Advatech is a ISO 9001-2015 Registered India based private limited company, having adopted a set of values and
 			principles on which its groups reputation and respectability have been built over the past years.</p>
 
-			<p style="font-size: 18px">Advatech Industries Pvt Ltd. currently is meeting its requirement of energy from ONGC with daily allotment
+			<p style="font-size: 18px">Bhavani Ceramic Pvt Ltd. currently is meeting its requirement of energy from ONGC with daily allotment
 				of 25000 to 35000 SCMD natural Gas making it one of the second largest gas consumer of ONGC LTD.
 			in Mehsana region of North Gujarat.</p>
 
@@ -45,11 +45,11 @@
 		</div>
 	</div>
 </section>
-<section id="team" class="team section-bg bg-dark">
+<section id="team" class="team section-bg">
 	<div class="container" data-aos="fade-up">
 
 		<div class="section-title">
-			<h2>Why Advatech industries pvt ltd</h2>
+			<h2>Why Bhavani Ceramic Pvt Ltd</h2>
 		</div>
 		 <div class="row">
 
@@ -79,8 +79,8 @@
 			<h2>Managment Team</h2>
 		</div>
 		 <div class="row">
-		 	<p class="text-center" style="font-size: 17px">Advatech is a venture, conceptualized and promoted by Nandolia family,
-which was establised in 1998 and became one of the leading manufacturer far sodium silicate located at state Gujarat of india.</p>
+		 	<p class="text-center" style="font-size: 17px">Bhavani Ceramic Pvt Ltd is a venture, conceptualized and promoted by Patel family,
+which was establised in 1997 and became one of the leading manufacturer far sodium silicate located at state Gujarat of india.</p>
 		 </div>
 	</div>
 </section>
@@ -97,7 +97,7 @@ which was establised in 1998 and became one of the leading manufacturer far sodi
                                 <table cellpadding="0" cellspacing="0" border="0">
                                     <tbody><tr>
                                         <td style="font-size:18px;">
-                                           Mr. Rahil Nandolia
+                                           Mr. Ankur K. Patel
                                         </td>
                                     </tr>
                                     <tr>
@@ -113,7 +113,7 @@ which was establised in 1998 and became one of the leading manufacturer far sodi
                                 <table cellpadding="0" cellspacing="0" border="0">
                                     <tbody><tr>
                                         <td style="font-size:18px;">
-                                           Mr. Imtiyaz Nandolia
+                                           Mr. Pankaj K. Patel
                                         </td>
                                     </tr>
                                     <tr>
@@ -129,12 +129,12 @@ which was establised in 1998 and became one of the leading manufacturer far sodi
                                 <table cellpadding="0" cellspacing="0" border="0">
                                     <tbody><tr>
                                         <td style="font-size:18px;">
-                                           Mr. Arif Nandolia
+                                           Mr. Pankaj B. Patel
                                         </td>
                                     </tr>
                                     <tr>
                                         <td align="right" style="color:#999999;">
-                                            <small style="font-size:10px;">Director</small> 
+                                            <small style="font-size:10px;">Manager</small> 
                                         </td>
                                     </tr>
                                 </tbody></table>
@@ -143,4 +143,4 @@ which was establised in 1998 and became one of the leading manufacturer far sodi
                     </tbody></table>
 	</div>
 </section>
-<?php include 'common/footer.php'?>
+<?php include './common/footer.php'?>
