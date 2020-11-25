@@ -1,5 +1,5 @@
 <?php include './common/header.php'?>
-<section id="" class="d-flex align-items-center" style="background-color: white;">
+<section id="" class="d-flex align-items-center">
 
 	<div class="container-fluid">
 		<div class="row">
@@ -12,15 +12,15 @@
   </ul>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="./assets/img/1.jpg" alt="Los Angeles" class="img-fluid" width="1400" height="400">
+      <img src="./assets/img/2.jpg" alt="Los Angeles" class="img-fluid" width="1400" height="400">
       <div class="carousel-caption">
-        <h3 class="my-5 text-dark" style="font-family: 'Roboto';font-size: 30px">Sodium Silicate Liquid</h3>
+        <h3 class="my-5 text-dark" style="font-family: 'Roboto';font-size: 30px">Sodium Silicate Solid</h3>
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="./assets/img/2.jpg" alt="Chicago" class="img-fluid" width="1400" height="400">
+      <img src="./assets/img/1.jpg" alt="Chicago" class="img-fluid" width="1400" height="400">
       <div class="carousel-caption">
-        <h3 class="my-5 text-dark" style="font-family: 'Roboto';font-size: 30px">Sodium Silicate Solid</h3>
+        <h3 class="my-5 text-dark" style="font-family: 'Roboto';font-size: 30px">Sodium Silicate Liquid</h3>
       </div>   
     </div>
     <div class="carousel-item">

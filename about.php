@@ -1,10 +1,10 @@
 <?php include './common/header.php'?>
-<section id="hero" class="d-flex align-items-center">
+<section id="hero" class="d-flex align-items-center mt-5">
 
 	 <div class="container">
       <div class="row">
       	<div class="hero-img" data-aos="zoom-in" data-aos-delay="200">
-          <img src="./assets/img/about-us.jpg" class="img-fluid animated" alt="" height="300" width="1500">
+          <img src="./assets/img/about_us.png" class="img-fluid animated" alt="" height="300" width="1500">
           
         </div>
         </div>
@@ -45,29 +45,29 @@
 		</div>
 	</div>
 </section>
-<section id="team" class="team section-bg">
+<section id="team" class="team section-bg" style="background-image: url(assets/img/parallax.jpg);background-position: 50% 25.6%;">
 	<div class="container" data-aos="fade-up">
 
 		<div class="section-title">
-			<h2>Why Bhavani Ceramic Pvt Ltd</h2>
+			<h2 style="color: white">Why Bhavani Ceramic Pvt Ltd</h2>
 		</div>
 		 <div class="row">
 
           <div class="col-sm-3 col-md-3">
-            <p class="text-center" style="font-size: 20px">Customization</p>
-            <p class="text-center" style="font-size: 15px">Packaging and silicate mixtures for your specific applications</p>
+            <p class="text-center" style="font-size: 20px;color: white">Customization</p>
+            <p class="text-center" style="font-size: 15px;color: white">Packaging and silicate mixtures for your specific applications</p>
           </div>
            <div class="col-sm-3 col-md-3">
-            <p class="text-center" style="font-size: 20px">Flexibility</p>
-            <p class="text-center" style="font-size: 15px">Fast response time, dynamic approach and short delivery times</p>
+            <p class="text-center" style="font-size: 20px;color: white">Flexibility</p>
+            <p class="text-center" style="font-size: 15px;color: white">Fast response time, dynamic approach and short delivery times</p>
           </div>
            <div class="col-sm-3 col-md-3">
-            <p class="text-center" style="font-size: 20px">Sustainability</p>
-            <p class="text-center" style="font-size: 15px">Respect for the environment and sustainability are central</p>
+            <p class="text-center" style="font-size: 20px;color: white">Sustainability</p>
+            <p class="text-center" style="font-size: 15px;color: white">Respect for the environment and sustainability are central</p>
           </div>
            <div class="col-sm-3 col-md-3">
-            <p class="text-center" style="font-size: 20px">Quality</p>
-            <p class="text-center" style="font-size: 15px">Extensive expertise in silicate using the purest raw material as a basis</p>
+            <p class="text-center" style="font-size: 20px;color: white">Quality</p>
+            <p class="text-center" style="font-size: 15px;color: white">Extensive expertise in silicate using the purest raw material as a basis</p>
           </div>
         </div>
 	</div>

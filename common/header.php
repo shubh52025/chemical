@@ -33,10 +33,10 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 </head>
 <body>
-	<header id="header" class="fixed-top" style="background-color: #4682B4">
+	<header id="header" class="fixed-top" style="background-color: #DCDCDC">
     <div class="container d-flex align-items-center">
       <div class="col-md-8">
-         <a href="" class="mr-auto"><img src="./assets/img/Logo.png" height="60" width="320"   alt="" class=""></a>
+         <a href="" class="mr-auto"><img src="./assets/img/logo2.png" height="100" width="370"   alt="" class=""></a>
          <!-- <h1 class="logo mr-auto"><a href="" class="text-primary">Bhavani Ceramic</a></h1> -->
       </div>
       <!-- <h1 class="logo mr-auto"><a href="" class="text-primary">Bhavani Ceramic</a></h1> -->
@@ -44,12 +44,12 @@
       <div class="col-md-4" >
         <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li><a href="index.php" class="" style="color: white">Home</a></li>
-          <li><a href="about.php" class="" style="color: white">About</a></li>
-          <li><a href="Product.php"  style="color: white">Product</a></li>
+          <li><a href="index.php" class="text-dark">Home</a></li>
+          <li><a href="about.php" class="text-dark">About</a></li>
+          <li><a href="Product.php" class="text-dark" >Product</a></li>
           <!-- <li><a href="team.php">Team</a></li> -->
-          <li><a href="enquiry.php"  style="color: white">Enquiry</a></li>
-          <li><a href="contact.php"  style="color: white">Contact</a></li>
+          <li><a href="enquiry.php" class="text-dark" >Enquiry</a></li>
+          <li><a href="contact.php" class="text-dark" >Contact</a></li>
 
         </ul>
       </nav>
