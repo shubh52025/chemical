@@ -26,28 +26,28 @@
 
 				<div class="col-sm-6 col-md-6 form-group">
 					<label style="font-size: 15px">Full Name</label>
-					<input  name=""  type="text" id="" class="form-control">
+					<input style="font-size: 15px" name=""  type="text" id="" class="form-control">
 				</div>
 				<div class="col-sm-6 col-md-6 form-group">
 					<label style="font-size: 15px">Company Name</label>
-					<input  name="" type="text" id="" class="form-control">
+					<input style="font-size: 15px" name="" type="text" id="" class="form-control">
 				</div>
 
 			</div>
 			<div class="row">
 				<div class="col-sm-12 col-md-12 form-group">
 					<label style="font-size: 15px">Address</label>
-					<textarea  name="" rows="2" cols="20" id="" class="form-control"></textarea>
+					<textarea style="font-size: 15px" name="" rows="2" cols="20" id="" class="form-control"></textarea>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-sm-6 col-md-6 form-group">
 					<label style="font-size: 15px">Email</label>
-					<input  name="" type="email" id="" class="form-control">
+					<input style="font-size: 15px" name="" type="email" id="" class="form-control">
 				</div>
 				<div class="col-sm-6 col-md-6 form-group">
 					<label style="font-size: 15px">Mobile</label>
-					<input  name="" type="number" id="" class="form-control">
+					<input style="font-size: 15px" name="" type="number" id="" class="form-control">
 				</div>
 			</div>
 			<div class="row">
@@ -65,7 +65,7 @@
 			<div class="row">
 				<div class="col-sm-12 col-md-12 form-group">
 					<label style="font-size: 15px">Enquiry / Feedback</label>
-					<textarea name="" rows="2" cols="20" id="" class="form-control"></textarea>
+					<textarea style="font-size: 15px" name="" rows="2" cols="20" id="" class="form-control"></textarea>
 				</div>
 				<div class="col-sm-12 col-md-12 form-group text-center" ><br>
                                         <input style="font-size: 18px" type="submit" name="" value="Send Enquiry" onclick="" id="" class="btn btn-secondary">

@@ -24,7 +24,7 @@
 <section id="contact" class="contact mt-5">
 	<div class="container" data-aos="fade-up">
 
-		<div class="section-title">
+		<div class="section-title mt-5">
 			<h2>Contact</h2>
 		</div>
 
@@ -58,27 +58,27 @@
 			</div>
 
 			<div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-				<form action="forms/contact.php" method="post" role="form" class="php-email-form">
+				<form action="mail.php" method="post" role="form" class="php-email-form">
 					<div class="form-row">
 						<div class="form-group col-md-6">
 							<label for="name" style="font-size: 12px">Your Name</label>
-							<input style="font-size: 10px" type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+							<input style="font-size: 15px" type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
 							<div class="validate"></div>
 						</div>
 						<div class="form-group col-md-6">
 							<label style="font-size: 12px" for="name">Your Email</label>
-							<input style="font-size: 10px" type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+							<input style="font-size: 15px" type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
 							<div class="validate"></div>
 						</div>
 					</div>
 					<div class="form-group">
-						<label style="font-size: 12px" for="name">Subject</label>
-						<input style="font-size: 10px" type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-						<div class="validate"></div>
+						<label style="font-size: 12px">Mobile</label>
+					<input style="font-size: 15px" name="phone" type="number" id="phone" class="form-control" data-rule="minlen:10">
+					<div class="validate"></div>
 					</div>
 					<div class="form-group">
 						<label style="font-size: 12px" for="name">Message</label>
-						<textarea style="font-size: 10px" class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+						<textarea style="font-size: 15px" class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
 						<div class="validate"></div>
 					</div>
 					<div class="mb-3">
@@ -86,7 +86,7 @@
 						<div class="error-message"></div>
 						<div class="sent-message">Your message has been sent. Thank you!</div>
 					</div>
-					<div class="text-center"><button style="font-size: 12px" type="submit">Send Message</button></div>
+					<div class="text-center"><button style="font-size: 12px" type="submit" name="submit">Send Message</button></div>
 				</form>
 			</div>
 

@@ -36,7 +36,7 @@
 	<header id="header" class="fixed-top" style="background-color: #DCDCDC">
     <div class="container d-flex align-items-center">
       <div class="col-md-8">
-         <a href="" class="mr-auto"><img src="./assets/img/logo2.png" height="100" width="370"   alt="" class=""></a>
+         <a href="" class="mr-auto"><img src="./assets/img/logo3.png" height="80" width="340"   alt="" class=""></a>
          <!-- <h1 class="logo mr-auto"><a href="" class="text-primary">Bhavani Ceramic</a></h1> -->
       </div>
       <!-- <h1 class="logo mr-auto"><a href="" class="text-primary">Bhavani Ceramic</a></h1> -->
