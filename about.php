@@ -87,9 +87,9 @@ which was establised in 1997 and became one of the leading manufacturer far sodi
 <section id="team" class="team section-bg">
 	<div class="container" data-aos="fade-up">
 
-		<div class="section-title">
+		<!-- <div class="section-title">
 			<h2>Board of Directors</h2>
-		</div>
+		</div> -->
 		 <div class="row">
 		 	 <table cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
                         <tbody><tr>

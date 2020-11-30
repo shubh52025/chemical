@@ -16,6 +16,11 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 
 	  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/mainmenu.css" rel="stylesheet" type="text/css">
+     <link href="assets/css/animate.css" rel="stylesheet" type="text/css">
+     <link href="assets/css/simpletextrotator.css" rel="stylesheet" type="text/css">
+     <link href="assets/css/imagelightbox.css" rel="stylesheet" type="text/css" media="screen">
 
 
 	 <link rel="stylesheet" href="assets/vendors/bootstrap/dist/css/bootstrap.css" />
@@ -33,17 +38,13 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 </head>
 <body>
-	<header id="header" class="fixed-top" style="background-color: #DCDCDC">
-    <div class="container d-flex align-items-center">
-      <div class="col-md-8">
-         <a href="" class="mr-auto"><img src="./assets/img/logo3.png" height="80" width="340"   alt="" class=""></a>
-         <!-- <h1 class="logo mr-auto"><a href="" class="text-primary">Bhavani Ceramic</a></h1> -->
-      </div>
-      <!-- <h1 class="logo mr-auto"><a href="" class="text-primary">Bhavani Ceramic</a></h1> -->
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <div class="col-md-4" >
-        <nav class="nav-menu d-none d-lg-block">
-        <ul>
+	<header>
+          <div class="container">
+                <a href="" class="mr-auto"><img src="./assets/img/logo3.png" height="80" width="340"   alt="" class=""></a>
+               <div id="mainmenu" class="menu_container">
+                    <label class="mobile_collapser">MENU</label>
+                    <!-- Mobile menu title -->
+                   <ul>
           <li><a href="index.php" class="text-dark">Home</a></li>
           <li><a href="about.php" class="text-dark">About</a></li>
           <li><a href="Product.php" class="text-dark" >Product</a></li>
@@ -52,15 +53,11 @@
           <li><a href="contact.php" class="text-dark" >Contact</a></li>
 
         </ul>
-      </nav>
-      </div>
-
-      <!-- .nav-menu -->
-
-      <!-- <a href="#about" class="get-started-btn scrollto">Get Started</a> -->
-
-    </div>
-  </header>
+               </div>
+               <div class="triangle-up-left"></div>
+               <div class="triangle-up-right"></div>
+          </div>
+        </header>
 <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
@@ -70,7 +67,7 @@
   <script src="assets/vendor/venobox/venobox.min.js"></script>
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
-
+  <script type="text/javascript" src="assets/js/collapser.js"></script>
   <script src="assets/js/main.js"></script>
 
 </body>

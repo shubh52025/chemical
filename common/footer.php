@@ -77,7 +77,7 @@
     </div>
 
     <div class="container footer-bottom clearfix">
-      <div class="copyright">
+      <div class="copyright1">
         &copy; Copyright <strong><span>Bhavani Ceramics Pvt Ltd</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
