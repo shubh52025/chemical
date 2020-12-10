@@ -1,4 +1,5 @@
 <?php include './common/header.php'?>
+<?php echo $alert; ?>
 <!-- <section id="hero" class="d-flex align-items-center">
 
 	<div class="container">
@@ -62,23 +63,23 @@
 					<div class="form-row">
 						<div class="form-group col-md-6">
 							<label for="name" style="font-size: 12px">Your Name</label>
-							<input style="font-size: 15px" type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-							<div class="validate"></div>
+							<input style="font-size: 15px" type="text" name="name" class="form-control" id="name" data-rule="minlen:4" required="" data-msg="Please enter at least 4 chars" />
+							<div class="validate" ></div>
 						</div>
 						<div class="form-group col-md-6">
 							<label style="font-size: 12px" for="name">Your Email</label>
-							<input style="font-size: 15px" type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+							<input style="font-size: 15px" type="text" class="form-control" name="email" id="email" data-rule="email" required="" data-msg="Please enter a valid email" />
 							<div class="validate"></div>
 						</div>
 					</div>
 					<div class="form-group">
 						<label style="font-size: 12px">Mobile</label>
-					<input style="font-size: 15px" name="phone" type="number" id="phone" class="form-control" data-rule="minlen:10">
+					<input style="font-size: 15px" name="phone" type="number" id="phone" class="form-control" data-rule="minlen:10" required="">
 					<div class="validate"></div>
 					</div>
 					<div class="form-group">
 						<label style="font-size: 12px" for="name">Message</label>
-						<textarea style="font-size: 15px" class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+						<textarea style="font-size: 15px" class="form-control" name="subject" id="subject" rows="10" data-rule="required" required="" data-msg="Please write something for us"></textarea>
 						<div class="validate"></div>
 					</div>
 					<div class="mb-3">
@@ -86,7 +87,7 @@
 						<div class="error-message"></div>
 						<div class="sent-message">Your message has been sent. Thank you!</div>
 					</div>
-					<div class="text-center"><button style="font-size: 12px" type="submit" name="submit">Send Message</button></div>
+					<div class="text-center"><button style="font-size: 12px" type="submit" name="submit" id="submit">Send Message</button></div>
 				</form>
 			</div>
 
@@ -94,4 +95,40 @@
 
 	</div>
 </section>
+<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+        function sendEmail() {
+            var name = $("#name");
+            var email = $("#email");
+            var subject = $("#subject");
+            var body = $("#body");
+
+            if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) && isNotEmpty(body)) {
+                $.ajax({
+                   url: 'sendEmail.php',
+                   method: 'POST',
+                   dataType: 'json',
+                   data: {
+                       name: name.val(),
+                       email: email.val(),
+                       subject: subject.val(),
+                       body: body.val()
+                   }, success: function (response) {
+                        $('#myForm')[0].reset();
+                        $('.sent-notification').text("Message Sent Successfully.");
+                   }
+                });
+            }
+        }
+
+        function isNotEmpty(caller) {
+            if (caller.val() == "") {
+                caller.css('border', '1px solid red');
+                return false;
+            } else
+                caller.css('border', '');
+
+            return true;
+        }
+    </script>
 <?php include './common/footer.php'?>

@@ -1,11 +1,14 @@
 <?php 
 use PHPMailer\PHPMailer\PHPMailer;
 
-if(isset($_POST['name']) && isset($_POST['email'])){
-    $name = $_POST['name'];
+if(isset($_POST['submit'])){
+    $fullname = $_POST['fullname'];
+    $companyname = $_POST['companyname'];
+    $address = $_POST['address'];
     $email = $_POST['email'];
-    $phone = $_POST['phone'];
-    $subject = $_POST['subject'];
+    $mobile = $_POST['mobile'];
+    $item = $_POST['item'];
+    $enquiry = $_POST['enquiry'];
 
 
     require_once "phpmailer/PHPMailer.php";
@@ -18,22 +21,22 @@ if(isset($_POST['name']) && isset($_POST['email'])){
     $mail->isSMTP();
     $mail->Host = "smtp.gmail.com";
     $mail->SMTPAuth = true;
-    $mail->Username = "Your Email Id Here"; //here email id
-    $mail->Password = 'Your password here';	//here password
+    $mail->Username = "hera email id"; //here email id
+    $mail->Password = 'here email password';	//here password
     $mail->Port = 465;
     $mail->SMTPSecure = "ssl";
 
     //email settings
     $mail->isHTML(true);
     $mail->setFrom($email, $name);
-    $mail->addAddress("daveshubham611@gmail.com");
+    $mail->addAddress("here second email id");
     $mail->Subject = ("$email ($subject)");
-    $mail->Body = "<h3>Name: $name <br>Email:$email <br>Phone:$phone<br>Message:$subject</h3>";
+    $mail->Body = "<h3>Name: $fullname<br>Company Name:$companyname<br>Address:$address <br>Email:$email <br>Phone:$mobile<br>Enquiry Product:$item<br>Feedback:$enquiry</h3>";
 
     
 
     if($mail->send()){
-    	header('location:contact.php');
+    	header('location:enquiry.php');
         // $status = "success";
         // $response = "Email is sent!";
     }

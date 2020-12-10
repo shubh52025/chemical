@@ -38,7 +38,7 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 </head>
 <body>
-	<header>
+	<header id="header" class="fixed-top" style="background-color: white">
           <div class="container">
                 <a href="" class="mr-auto"><img src="./assets/img/logo3.png" height="80" width="340"   alt="" class=""></a>
                <div id="mainmenu" class="menu_container">
