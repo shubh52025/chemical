@@ -69,7 +69,7 @@
   clear: both;
 }
 .menu_container {
-  margin-top: 0px;
+  margin-top: 10px;
   background: transparent;
   background-color: #ffffff;
   float: none;
@@ -349,7 +349,7 @@ ul.dmui-submenu > li > .dmui-submenu li > .dmui-submenu > li > .dmui-submenu a {
 }
 .mobile_collapser {
   display: block;
-  height: 51px;
+  height: 40px;
   text-align: left;
   padding: 12px 25px;
   color: #fff;

@@ -1,91 +1,91 @@
 <?php include './common/header.php'?>
-<section id="" class="d-flex align-items-center">
+<section id="" class="d-flex align-items-center mt-5">
 
-	<div class="container-fluid">
-		<div class="row">
+	<div class="mt-5">
+		<div class="row mt-5">
 			<!-- <div class="" data-aos="zoom-in" data-aos-delay="200"> -->
 				<div id="demo" class="carousel slide" data-ride="carousel">
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./assets/img/2.jpg" alt="Los Angeles" class="img-fluid" width="1400" height="400">
-      <div class="carousel-caption">
-        <h3 class="my-5 text-dark" style="font-family: 'Roboto';font-size: 30px">Sodium Silicate Solid</h3>
-      </div>   
-    </div>
-    <div class="carousel-item">
-      <img src="./assets/img/1.jpg" alt="Chicago" class="img-fluid" width="1400" height="400">
-      <div class="carousel-caption">
-        <h3 class="my-5 text-dark" style="font-family: 'Roboto';font-size: 30px">Sodium Silicate Liquid</h3>
-      </div>   
-    </div>
-    <div class="carousel-item">
-      <img src="./assets/img/3.jpg" alt="New York" class="img-fluid" width="1400" height="400">
-      <div class="carousel-caption">
-        <h3 class="my-5 text-dark" style="font-family: 'Roboto';font-size: 30px">Sodium Meta Silicate</h3>
-      </div>   
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-</div>
-          
-      
-        </div>
-	</div>
-</section>
+					<ul class="carousel-indicators">
+						<li data-target="#demo" data-slide-to="0" class="active"></li>
+						<li data-target="#demo" data-slide-to="1"></li>
+						<li data-target="#demo" data-slide-to="2"></li>
+					</ul>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="./assets/img/2.jpg" alt="" class="img-fluid" width="1400" height="400">
+							<div class="carousel-caption">
+								<h3 class="my-5 text-dark" style="font-family: 'Roboto';font-size: 30px">Sodium Silicate Solid</h3>
+							</div>   
+						</div>
+						<div class="carousel-item">
+							<img src="./assets/img/1.jpg" alt="" class="img-fluid" width="1400" height="400">
+							<div class="carousel-caption">
+								<h3 class="my-5 text-dark" style="font-family: 'Roboto';font-size: 30px">Sodium Silicate Liquid</h3>
+							</div>   
+						</div>
+						<div class="carousel-item">
+							<img src="./assets/img/3.jpg" alt="" class="img-fluid" width="1400" height="400">
+							<div class="carousel-caption">
+								<h3 class="my-5 text-dark" style="font-family: 'Roboto';font-size: 30px">Sodium Meta Silicate</h3>
+							</div>   
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#demo" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</a>
+					<a class="carousel-control-next" href="#demo" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</a>
+				</div>
 
 
-<!--Our Product -->
-<section id="team" class="team section-bg">
-  <div class="container" data-aos="fade-up">
+			</div>
+		</div>
+	</section>
 
-    <div class="section-title">
-      <h2>Our Product</h2>
-    </div>
-    <div class="row">
-     <div class="col-sm-6 col-md-4">
-      <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-        <div class="pic"><img src="./assets/img/product2.jpg" class="img-fluid" alt="">
-        
-          
-       </div>
-       <h4 class="text-center">SODIUM  SILICATE SOLID</h4>
-      </div>
-      <p class="text-center" style="font-size: 15px">Sodium Silicate is one of most branched out and specialized product with its applications ranging to suit different products.<br><br><br></p>
-    </div>
-    <div class="col-sm-6 col-md-4">
-      <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-        <div class="pic"><img src="./assets/img/liquied1.jpg" class="img-fluid" alt="">
-        
-          
-       </div>
-       <h4 class="text-center">SODIUM  SILICATE LIQUID</h4>
-      </div>
-      <p class="text-center" style="font-size: 15px">Sodium Silicate is one of most branched out and specialized product with its applications ranging to suit different products.<br><br><br></p>
-    </div>
-  <div class="col-sm-6 col-md-4">
-      <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-        <div class="pic"><img src="./assets/img/powder2.jpg" class="img-fluid" alt="">
-        
-          
-       </div>
-       <h4 class="text-center">SODIUM META SILICATE</h4>
-      </div>
-      <p class="text-center" style="font-size: 15px">Sodium Silicate is one of most branched out and specialized product with its applications ranging to suit different products.<br><br><br></p>
-    </div>
 
-</div>
-</div>
-</section>
+	<!--Our Product -->
+	<section id="team" class="team section-bg">
+		<div class="container" data-aos="fade-up">
+
+			<div class="section-title">
+				<h2>Our Product</h2>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 col-md-4">
+					<div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+						<div class="pic"><img src="./assets/img/product2.jpg" class="img-fluid" alt="">
+
+
+						</div>
+						<h4 class="text-center">SODIUM  SILICATE SOLID</h4>
+					</div>
+					<p class="text-center" style="font-size: 15px">Sodium Silicate is one of most branched out and specialized product with its applications ranging to suit different products.<br><br><br></p>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+						<div class="pic"><img src="./assets/img/liquied1.jpg" class="img-fluid" alt="">
+
+
+						</div>
+						<h4 class="text-center">SODIUM  SILICATE LIQUID</h4>
+					</div>
+					<p class="text-center" style="font-size: 15px">Sodium Silicate is one of most branched out and specialized product with its applications ranging to suit different products.<br><br><br></p>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+						<div class="pic"><img src="./assets/img/powder2.jpg" class="img-fluid" alt="">
+
+
+						</div>
+						<h4 class="text-center">SODIUM META SILICATE</h4>
+					</div>
+					<p class="text-center" style="font-size: 15px">Sodium Silicate is one of most branched out and specialized product with its applications ranging to suit different products.<br><br><br></p>
+				</div>
+
+			</div>
+		</div>
+	</section>
 <!-- <section id="team" class="team section-bg">
 	<div class="container" data-aos="fade-up">
 

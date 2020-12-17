@@ -25,8 +25,8 @@
 <section id="contact" class="contact mt-5">
 	<div class="container" data-aos="fade-up">
 
-		<div class="section-title mt-5">
-			<h2>Contact</h2>
+		<div class="section-title mt-5"><br>
+			<h2 class="mt-5">Contact</h2>
 		</div>
 
 		<div class="row">

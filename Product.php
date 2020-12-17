@@ -22,8 +22,8 @@
 <section id="team" class="team section-bg mt-5">
   <div class="container" data-aos="fade-up">
 
-    <div class="section-title mt-5">
-      <h2>Our Product</h2>
+    <div class="section-title mt-5"><br>
+      <h2 class="mt-5">Our Product</h2>
     </div>
     <div class="row">
      <div class="col-sm-6 col-md-4">

@@ -15,12 +15,12 @@
     </div>
 </section> -->
 <!-- <iframe width="1350" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=mehsana&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> -->
-<div class="container" style="">
-	<section>
+<div class="container mt-5" style="">
+	<section class="mt-5">
 		<div class="contact_form col-sm-12 col-md-12 justify-content-center mt-5">
-			<form action="enqmail.php" method="post" role="form" class="php-email-form">
-				<div class="section-title mt-5">
-			<h2>Business Enquiry</h2>
+			<form action="enqmail.php" method="post" role="form" class="php-email-form mt-5">
+				<div class="section-title mt-5"><br>
+			<h2 class="mt-5">Business Enquiry</h2>
 		</div>
 			<div class="row mt-3">
 
